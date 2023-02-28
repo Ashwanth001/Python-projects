@@ -1,0 +1,1 @@
+n = int(input("Please enter the 4 numbers"))
