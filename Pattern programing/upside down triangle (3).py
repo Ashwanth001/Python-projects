@@ -1,0 +1,25 @@
+n1 = input ("PLease enter the input:" )
+n = int (n1)
+i = 1
+j = 1
+s = 1
+i = i+1
+while (i <= n):
+      s = s+2
+      i = i+1
+b = 0
+i = 1
+t = 1
+while (i <=n):
+    while (t <=b):
+        print ("  ",end="")
+        t = t+1
+    t = 1
+    b =b+1
+    while (j <=s):
+        print("* ", end="")
+        j = j+1
+    j = 1
+    s = s-2
+    i = i+1
+    print ()
